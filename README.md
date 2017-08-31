@@ -2,7 +2,7 @@
 
 A hubot package for daily tea time!
 
-See [`src/tea-time.coffee`](src/tea-time.coffee) for full documentation.
+See [`src/tea-time.js`](src/tea-time.js) for full documentation.
 
 ## Installation
 
@@ -21,8 +21,8 @@ Then add **hubot-tea-time** to your `external-scripts.json`:
 ## Sample Interaction
 
 ```
-user1>> hubot hello
-hubot>> hello!
+user1>> hubot tea time
+hubot>> Right-O, Chap! Jolly Good!
 ```
 
 ## NPM Module
