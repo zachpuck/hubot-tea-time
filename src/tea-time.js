@@ -12,7 +12,10 @@
 #
 # Author:
 #   zach puckett <zachpuckett@gmail.com>
+'use strict';
 
-module.exports = (robot) ->
-  robot.respond /tea time/, (res) ->
-    res.reply "Right-O, Chap! Jolly Good!!"
+module.exports = function(robot) {
+    robot.hear(/tea time/, function(res) {
+        res.send('Right-O, Chap! Jolly Good!');
+    });
+}
