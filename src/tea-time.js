@@ -18,4 +18,9 @@ module.exports = function(robot) {
     robot.hear(/tea time/, function(res) {
         res.send('Right-O, Chap! Jolly Good!');
     });
+
+    robot.respond(/tea$/i, (msg) => {
+        msg.reply('You\'re tea-riffic!');
+    });
+    
 }
