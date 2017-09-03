@@ -7,10 +7,10 @@
   "keywords": "hubot, hubot-scripts, tea time, drinking tea",
   "repository": {
     "type": "git",
-    "url": "git://github.com/hubot-scripts/hubot-tea-time.git"
+    "url": "git://github.com/zachpuck/hubot-tea-time.git"
   },
   "bugs": {
-    "url": "https://github.com/hubot-scripts/hubot-tea-time/issues"
+    "url": "https://github.com/zachpuck/hubot-tea-time/issues"
   },
   "dependencies": {},
   "peerDependencies": {
