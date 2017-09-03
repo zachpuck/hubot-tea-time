@@ -9,7 +9,7 @@ module.exports = function (grunt) {
           reporter: 'spec',
           require: 'coffee-script'
         },
-        src: ['test/**/*.coffee']
+        src: ['test/**/*.coffee', 'test/**/*.js']
       }
     },
     release: {
@@ -19,7 +19,7 @@ module.exports = function (grunt) {
       }
     },
     watch: {
-      files: ['Gruntfile.js', 'src/**/*.coffee', 'test/**/*.coffee'],
+      files: ['Gruntfile.js', 'src/**/*.coffee', 'test/**/*.coffee', 'test/**/*.js', 'src/**/*.js' ],
       tasks: ['test']
     }
   });
