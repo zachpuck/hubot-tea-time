@@ -3,7 +3,7 @@ const helper = new Helper('../src/tea-time.js');
 
 
 const co = require('co');
-const { expect } = require('chai');
+const expect = require('chai').expect;
 
 describe('hello-world', function() {
 
