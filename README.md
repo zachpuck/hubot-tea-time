@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/zachpuck/hubot-tea-time.svg?branch=master)](https://travis-ci.org/zachpuck/hubot-tea-time)
+
 # hubot-tea-time
 
 A hubot package for daily tea time!
